@@ -1,6 +1,5 @@
 body{
     margin: 0;
-    padding-left: 150px;
     background-image: url('img/background.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -37,4 +36,52 @@ body{
     transform: rotate(180deg);
 }
 
+.home-container{
+    display: flex;
+    padding-left: 190px;
+}
 
+.home-text{
+    flex: 0.8;
+    padding-top: 60px;
+    padding-right: 60px;
+}
+
+#hello-home{
+    font-size: 55px;
+    font-family: Futura Md BT;
+    font-weight: bold;
+    color: #FE7E83;
+}
+
+#intro-home{
+    font-size: 55px;
+    font-family: Futura Md BT;
+    font-weight: bold;
+}
+
+#see-home{
+    font-size: 20px;
+    font-family: Futura Bk BT;
+}
+
+.home-photo{
+    flex: 1;
+    padding: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#bg-photo-home{
+    opacity: 0.6;
+    width: 712px;
+    position: relative;
+}
+
+#photo-home{
+    width: 600px;
+    position: absolute;
+    top: 0;
+    left: 50px;
+}

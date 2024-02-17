@@ -7,6 +7,8 @@ body{
     background-size: cover;
 }
 
+/*----------------------------------------------------------*/
+
 .navbar{
     position: fixed;
     top: 0;
@@ -18,6 +20,7 @@ body{
     flex-direction: column;
     box-sizing: border-box;
     background: rgba(149, 149, 149, 0.2);
+    border-right: 3px solid black;
     align-items: center;
 }
 
@@ -35,6 +38,49 @@ body{
     writing-mode: vertical-lr;
     transform: rotate(180deg);
 }
+
+#see-underline, .label-underline{
+    color: black;
+    text-decoration: none;
+    position: relative;
+}
+
+.label-underline:after{
+    content: "";
+    position: absolute;
+    background-color: #FE7E83;
+    height: 0;
+    width: 2.5px;
+    left: -5px;
+    right: 0;
+    bottom: 0;
+    transition: 0.3s;
+}
+
+.label-underline:hover:after{
+    height: 100%;
+}
+
+.label-underline:focus:after{
+    height: 100%;
+}
+
+#see-underline:after{
+    content: "";
+    position: absolute;
+    background-color: #FE7E83;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+
+#see-underline:hover:after{
+    width: 100%;
+}
+
+/*----------------------------------------------------------*/
 
 .home-container{
     display: flex;
@@ -84,4 +130,62 @@ body{
     position: absolute;
     top: 0;
     left: 50px;
+}
+
+/*----------------------------------------------------------*/
+
+.about-container{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.about-bit{
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    flex: 1;
+    background: rgba(126, 205, 248, 0.6);
+    text-align: justify;
+}
+
+.header-about{
+    font-family: Futura Bk Bt;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.body-about{
+    font-family: Futura Lt Bt;
+    font-size: 18px;
+}
+
+.about-skills{
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    flex: 0.6;
+    background: rgba(247, 208, 39, 0.6);
+}
+
+.skills-column{
+    display: flex;
+    font-family: Futura Lt Bt;
+    font-size: 18px;
+}
+
+.first-column{
+    flex: 1;
+    margin-right: 30px;
+}
+
+.second-column{
+    flex: 0.8;
+}
+
+.first-element{
+    margin-top: 0px;
 }

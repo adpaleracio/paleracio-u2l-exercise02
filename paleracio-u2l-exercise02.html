@@ -2,48 +2,47 @@
 
 <html>
     <head>
-        <title>Sample Web Page</title>
+        <title>Arianne Paleracio</title>
+        <link rel="icon" href="img/logo.png">
         <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     
     <body>
-        <div class="navbar">
+        <div id="navbar">
             <img src="img/logo.png" id="logo-navbar">
-            <p class="label"><a href="#" class="label-underline">about</a></p>
-            <p class="label"><a href="#" class="label-underline">projects</a></p>
-            <p class="label"><a href="#" class="label-underline">contact</a></p>
+            <p class="label"><a href="#about-container" class="label-underline">about</a></p>
+            <p class="label"><a href="#header-project" class="label-underline">projects</a></p>
+            <p class="label"><a href="#contact-container" class="label-underline">contact</a></p>
         </div>
 
-        <div class="home-container">
-            <div class="home-text">
-                <p id="hello-home">Hello!</p>
-                <p id="intro-home">I’m Arianne Paleracio, a creative specializing in web design and programming.</p>
+        <div id="home-container">
+            <div id="home-text">
+                <p id="hello">Hello!</p>
+                <p id="intro">I’m Arianne Paleracio, a creative specializing in web design and programming.</p>
                 <br/>
-                <p id="see-home"><a href="#" id="see-underline">see more ↓</a></p>
+                <p id="see-btn"><a href="#about-container" class="scroll-btn-underline">see more ↓</a></p>
             </div>
-
-            <div class="home-photo">
-                <img src="img/featured-photo.png" id="photo-home">
+            <div id="home-photo">
+                <img src="img/featured-photo.png" id="photo">
             </div>
         </div>
 
-
-        <div class="about-container">
-            <div class="about-bit">
-                <p class="header-about">A bit about me&nbsp;—</p>
+        <div id="about-container">
+            <div id="about-bit">
+                <p class="header-gen">A bit about me&nbsp;—</p>
                 <p class="body-about">Hey there! My full name is Arianne Mae Paleracio, age 22, residing in San Pedro, Laguna. I am a graduating student from the University of the Philippines - Los Baños, taking up BS Computer Science. I finished my high school studies at Muntinlupa Science High School, placing 4th. I am a DOST-SEI Merit Scholarship grantee as well.</p>
                 <p class="body-about">As a CS student, I gained extensive knowledge on various programming subjects, but I also have a passion for art. Integrating the two, I realized my passion for web design and have been working as a front-end programmer since then.</p>
             </div>
 
-            <div class="about-skills">
-                <p class="header-about">Skills&nbsp;—</p>
-                <div class="skills-column">
-                    <div class="first-column">
+            <div id="about-skills">
+                <p class="header-gen">Skills&nbsp;—</p>
+                <div id="skills-column">
+                    <div id="first-column">
                         <p class="first-element">Knowledgeable on Python, Java, C, HTML/CSS, & JavaScript</p>
                         <p>Testing & debugging</p>
                         <p>Responsive design</p>
                     </div>
-                    <div class="second-column">
+                    <div id="second-column">
                         <p class="first-element">Attention to detail</p>
                         <p>Adaptability</p>
                         <p>Communication skills</p>
@@ -53,84 +52,74 @@
             </div>
         </div>
 
-        <p class="header-projects">Projects&nbsp;—</p>
+        <p id="header-project">Projects&nbsp;—</p>
 
         <div class="project-container">
             <div class="circle"></div>
-
             <div class="project-info">
                 <span class="project-title">Three Solvers</span>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                
                 <span class="project-year">2023</span>
                 <p class="project-body">As my project submission for CMSC 150, titled “Numerical and Symbolic Computation,” I programmed and designed a website that includes solvers for Polynomial Regression, Quadratic Spline Interpolation, and Simplex (minimization).</p>
-                <p class="project-view"><a href="#" id="view-underline">View my project →</a></p>
+                <p class="project-view"><a href="#" target="_blank" class="view-underline">View my project →</a></p>
             </div>
-
             <img src="img/project1.png" class="project-photo">
         </div>
 
         <div class="project-container">
             <div class="circle"></div>
-
             <div class="project-info">
                 <span class="project-title">Self-Introduction</span>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                
                 <span class="project-year">2021</span>
                 <p class="project-body">For my Empowering Technologies subject in senior high school, my groupmates and I created a multi-page website that introduces each of us. It includes personal details such as our families and friends, hobbies, etc.</p>
-                <p class="project-view"><a href="#" id="view-underline">View my project →</a></p>
+                <p class="project-view"><a href="#" target="_blank" class="view-underline">View my project →</a></p>
             </div>
-
             <img src="img/project2.png" class="project-photo">
         </div>
 
         <div class="project-container">
             <div class="circle"></div>
-
             <div class="project-info">
                 <span class="project-title">Sample Business Website</span>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                
                 <span class="project-year">2021</span>
                 <p class="project-body">For my Empowering Technologies subject in senior high school, I also created a sample business website, particularly for a web development firm.</p>
-                <p class="project-view"><a href="#" id="view-underline">View my project →</a></p>
+                <p class="project-view"><a href="#" target="_blank" class="view-underline">View my project →</a></p>
             </div>
-
             <img src="img/project3.png" class="project-photo">
         </div>
 
         <div class="project-container">
             <div class="circle"></div>
-
             <div class="project-info">
                 <span class="project-title">Text Animation</span>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                
                 <span class="project-year">2021</span>
                 <p class="project-body">For my Empowering Technologies subject in senior high school, I also created a webpage that makes use of text animation and audio, making it look like a video.</p>
-                <p class="project-view"><a href="#" id="view-underline">View my project →</a></p>
+                <p class="project-view"><a href="#" target="_blank" class="view-underline">View my project →</a></p>
             </div>
-
             <img src="img/project4.png" class="project-photo">
         </div>
 
-        
-        <p id="back-to-top"><a href="#" id="back-underline">back to top ↑</a></p>
+        <p id="back-btn"><a href="#home-container" class="scroll-btn-underline">back to top ↑</a></p>
 
+        <div id="contact-container">
+            <p class="header-gen">Contact me&nbsp;—</p>
 
-        <div class="contact-container">
-            <p id="header-contact">Contact me&nbsp;—</p>
-
-            <div class="contact-main">
-                <div class="contact-call">
+            <div id="contact-main">
+                <div id="contact-call">
                     <p class="contact">CALL</p>
                     <p class="contact-no-copy">0917 152 7555 / 8868 3623</p>
                 </div>
-                <div class="contact-socials">
+                <div id="contact-socials">
                     <p class="contact">SOCIALS</p>
-                    <img src="img/email.png" class="socials-icon">
-                    <img src="img/fb.png" class="socials-icon">
-                    <img src="img/ig.png" class="socials-icon">
-                    <img src="img/github.png" class="socials-icon">
+                    <a href="mailto:arianne.paleracio@gmail.com" target="_blank"><img src="img/email.png" class="socials-icon"></a>
+                    <a href="https://www.facebook.com/ariannemae.paleracio.7" target="_blank"><img src="img/fb.png" class="socials-icon"></a>
+                    <a href="https://www.instagram.com/arimae.pal/" target="_blank"><img src="img/ig.png" class="socials-icon"></a>
+                    <a href="https://github.com/adpaleracio" target="_blank"><img src="img/github.png" class="socials-icon"></a>
                 </div>
-                <div class="contact-copyright">
+                <div id="contact-copyright">
                     <img src="img/logo.png" id="logo-contact">
                     <p class="contact-no-copy">Copyright © 2024 Arianne Paleracio. All Rights Reserved.</p>
                 </div>

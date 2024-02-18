@@ -1,4 +1,4 @@
-body{
+body{                           /* background image */
     margin: 0;
     background-image: url('img/background.png');
     background-repeat: no-repeat;
@@ -6,7 +6,7 @@ body{
     background-size: cover;
 }
 
-/*----------------------------------------------------------*/
+/*---------- NAVBAR STYLES ----------*/
 
 #navbar{
     position: fixed;
@@ -60,7 +60,7 @@ body{
     height: 100%;
 }
 
-/*----------------------------------------------------------*/
+/*---------- "HOME" STYLES ----------*/
 
 #home-container{
     display: flex;
@@ -125,7 +125,7 @@ body{
     float: right;
 }
 
-/*----------------------------------------------------------*/
+/*---------- "ABOUT" & "SKILLS" STYLES ----------*/
 
 #about-container{
     display: flex;
@@ -182,7 +182,7 @@ body{
     margin-top: 0px;
 }
 
-/*----------------------------------------------------------*/
+/*---------- "PROJECTS" STYLES ----------*/
 
 #header-project{
     font-size: 30px;
@@ -266,7 +266,7 @@ body{
     margin-left: 190px;
 }
 
-/*----------------------------------------------------------*/
+/*---------- "CONTACT ME" STYLES ----------*/
 
 #contact-container{
     background: rgba(247, 208, 39, 0.6);

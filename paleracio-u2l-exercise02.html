@@ -8,43 +8,44 @@
     </head>
     
     <body>
-        <div id="navbar">
+        <div id="navbar">                      <!-- contains the navbar -->
             <img src="img/logo.png" id="logo-navbar">
             <p class="label"><a href="#about-container" class="label-underline">about</a></p>
             <p class="label"><a href="#header-project" class="label-underline">projects</a></p>
             <p class="label"><a href="#contact-container" class="label-underline">contact</a></p>
         </div>
 
-        <div id="home-container">
-            <div id="home-text">
+        <div id="home-container">                      <!-- home section -->
+            <div id="home-text">                         <!-- text in the home section -->
                 <p id="hello">Hello!</p>
                 <p id="intro">I’m Arianne Paleracio, a creative specializing in web design and programming.</p>
                 <br/>
                 <p id="see-btn"><a href="#about-container" class="scroll-btn-underline">see more ↓</a></p>
             </div>
-            <div id="home-photo">
+            <div id="home-photo">                      <!-- personal/featured photo -->
                 <img src="img/featured-photo.png" id="photo">
             </div>
         </div>
 
-        <div id="about-container">
-            <div id="about-bit">
+        <div id="about-container">                      <!-- contains the about section (together w/ the skills) -->
+            <div id="about-bit">                      <!-- "a bit about me" text -->
                 <p class="header-gen">A bit about me&nbsp;—</p>
                 <p class="body-about">Hey there! My full name is Arianne Mae Paleracio, age 22, residing in San Pedro, Laguna. I am a graduating student from the University of the Philippines - Los Baños, taking up BS Computer Science. I finished my high school studies at Muntinlupa Science High School, placing 4th. I am a DOST-SEI Merit Scholarship grantee as well.</p>
                 <p class="body-about">As a CS student, I gained extensive knowledge on various programming subjects, but I also have a passion for art. Integrating the two, I realized my passion for web design and have been working as a front-end programmer since then.</p>
             </div>
 
-            <div id="about-skills">
+            <div id="about-skills">                      <!-- "skills" section -->
                 <p class="header-gen">Skills&nbsp;—</p>
                 <div id="skills-column">
-                    <div id="first-column">
+                    <div id="first-column">                      <!-- first column contains the hard skills -->
                         <p class="first-element">Knowledgeable on Python, Java, C, HTML/CSS, & JavaScript</p>
-                        <p>Testing & debugging</p>
+                        <p>Debugging</p>
+                        <p>Git version control</p>
                         <p>Responsive design</p>
                     </div>
-                    <div id="second-column">
-                        <p class="first-element">Attention to detail</p>
-                        <p>Adaptability</p>
+                    <div id="second-column">                      <!-- second column contains the soft skills -->
+                        <p class="first-element">Time management</p>
+                        <p>Problem solving</p>
                         <p>Communication skills</p>
                         <p>Teamwork</p>
                     </div>
@@ -54,31 +55,31 @@
 
         <p id="header-project">Projects&nbsp;—</p>
 
-        <div class="project-container">
-            <div class="circle"></div>
-            <div class="project-info">
+        <div class="project-container">                      <!-- PROJECT 1; container for each project (same format as lines 70, 82, 94) -->
+            <div class="circle"></div>                             <!-- the circle serves as a bullet for each project -->
+            <div class="project-info">                              <!-- contains info about the project -->
                 <span class="project-title">Three Solvers</span>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                
                 <span class="project-year">2023</span>
                 <p class="project-body">As my project submission for CMSC 150, titled “Numerical and Symbolic Computation,” I programmed and designed a website that includes solvers for Polynomial Regression, Quadratic Spline Interpolation, and Simplex (minimization).</p>
                 <p class="project-view"><a href="#" target="_blank" class="view-underline">View my project →</a></p>
             </div>
-            <img src="img/project1.png" class="project-photo">
+            <img src="img/project1.png" class="project-photo">          <!-- preview photo of the project -->
         </div>
 
-        <div class="project-container">
+        <div class="project-container">             <!-- PROJECT 2 -->
             <div class="circle"></div>
             <div class="project-info">
                 <span class="project-title">Self-Introduction</span>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                
                 <span class="project-year">2021</span>
-                <p class="project-body">For my Empowering Technologies subject in senior high school, my groupmates and I created a multi-page website that introduces each of us. It includes personal details such as our families and friends, hobbies, etc.</p>
+                <p class="project-body">For my Empowering Technologies subject in senior high school, my groupmates and I created a multi-page website that introduced each of us. It includes personal details such as our families and friends, hobbies, interests, etc.</p>
                 <p class="project-view"><a href="#" target="_blank" class="view-underline">View my project →</a></p>
             </div>
             <img src="img/project2.png" class="project-photo">
         </div>
 
-        <div class="project-container">
+        <div class="project-container">             <!-- PROJECT 3 -->
             <div class="circle"></div>
             <div class="project-info">
                 <span class="project-title">Sample Business Website</span>
@@ -90,36 +91,36 @@
             <img src="img/project3.png" class="project-photo">
         </div>
 
-        <div class="project-container">
+        <div class="project-container">             <!-- PROJECT 4 -->
             <div class="circle"></div>
             <div class="project-info">
                 <span class="project-title">Text Animation</span>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                
                 <span class="project-year">2021</span>
-                <p class="project-body">For my Empowering Technologies subject in senior high school, I also created a webpage that makes use of text animation and audio, making it look like a video.</p>
+                <p class="project-body">For my Empowering Technologies subject in senior high school, I also created a webpage that makes use of text animation and audio.</p>
                 <p class="project-view"><a href="#" target="_blank" class="view-underline">View my project →</a></p>
             </div>
             <img src="img/project4.png" class="project-photo">
         </div>
 
-        <p id="back-btn"><a href="#home-container" class="scroll-btn-underline">back to top ↑</a></p>
+        <p id="back-btn"><a href="#home-container" class="scroll-btn-underline">back to top ↑</a></p>       <!-- back to top button -->
 
-        <div id="contact-container">
+        <div id="contact-container">                    <!-- contacts section -->
             <p class="header-gen">Contact me&nbsp;—</p>
 
-            <div id="contact-main">
-                <div id="contact-call">
+            <div id="contact-main">                         <!-- contains the main info -->
+                <div id="contact-call">                     <!-- call info -->
                     <p class="contact">CALL</p>
                     <p class="contact-no-copy">0917 152 7555 / 8868 3623</p>
                 </div>
-                <div id="contact-socials">
+                <div id="contact-socials">                  <!-- social media account links -->
                     <p class="contact">SOCIALS</p>
                     <a href="mailto:arianne.paleracio@gmail.com" target="_blank"><img src="img/email.png" class="socials-icon"></a>
                     <a href="https://www.facebook.com/ariannemae.paleracio.7" target="_blank"><img src="img/fb.png" class="socials-icon"></a>
                     <a href="https://www.instagram.com/arimae.pal/" target="_blank"><img src="img/ig.png" class="socials-icon"></a>
                     <a href="https://github.com/adpaleracio" target="_blank"><img src="img/github.png" class="socials-icon"></a>
                 </div>
-                <div id="contact-copyright">
+                <div id="contact-copyright">                <!-- copyright info -->
                     <img src="img/logo.png" id="logo-contact">
                     <p class="contact-no-copy">Copyright © 2024 Arianne Paleracio. All Rights Reserved.</p>
                 </div>

@@ -39,7 +39,7 @@ body{
     transform: rotate(180deg);
 }
 
-#see-underline, .label-underline{
+.label-underline{
     color: black;
     text-decoration: none;
     position: relative;
@@ -63,21 +63,6 @@ body{
 
 .label-underline:focus:after{
     height: 100%;
-}
-
-#see-underline:after{
-    content: "";
-    position: absolute;
-    background-color: #FE7E83;
-    height: 2px;
-    width: 0;
-    left: 0;
-    bottom: -5px;
-    transition: 0.3s;
-}
-
-#see-underline:hover:after{
-    width: 100%;
 }
 
 /*----------------------------------------------------------*/
@@ -111,6 +96,27 @@ body{
     font-family: Futura Bk BT;
 }
 
+#see-underline{
+    color: black;
+    text-decoration: none;
+    position: relative;
+}
+
+#see-underline:after{
+    content: "";
+    position: absolute;
+    background-color: gray;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+
+#see-underline:hover:after{
+    width: 100%;
+}
+
 .home-photo{
     flex: 1;
     padding: 0;
@@ -138,6 +144,7 @@ body{
     display: flex;
     margin-left: 100px;
     margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .about-bit{
@@ -151,14 +158,14 @@ body{
 }
 
 .header-about{
-    font-family: Futura Bk Bt;
+    font-family: Futura Bk BT;
     font-weight: bold;
     font-style: italic;
     font-size: 30px;
 }
 
 .body-about{
-    font-family: Futura Lt Bt;
+    font-family: Futura Lt BT;
     font-size: 18px;
 }
 
@@ -188,4 +195,79 @@ body{
 
 .first-element{
     margin-top: 0px;
+}
+
+/*----------------------------------------------------------*/
+
+.project-container{
+    display: flex;
+    margin-left: 130px;
+    margin-right: 90px;
+    margin-bottom: 40px
+}
+
+.header-projects{
+    font-family: Futura Bk BT;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    margin-left: 190px;
+    margin-bottom: 50px;
+}
+
+.circle{
+    flex: 0.1;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: #FE7E83;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+.project-info{
+    flex: 2;
+    margin-right: 40px;
+}
+
+.project-title{
+    font-size: 40px;
+    font-family: Futura Md BT;
+    font-weight: bold;
+}
+
+.project-year{
+    font-family: Futura Lt BT;
+}
+
+.project-body, .project-view{
+    font-family: Futura Lt BT;
+    font-size: 18px;
+}
+
+#view-underline{
+    color: black;
+    text-decoration: none;
+    position: relative;
+}
+
+#view-underline:after{
+    content: "";
+    position: absolute;
+    background-color: gray;
+    height: 1px;
+    width: 0;
+    left: 0;
+    bottom: -2px;
+    transition: 0.3s;
+}
+
+#view-underline:hover:after{
+    width: 100%;
+}
+
+.project-photo{
+    flex: 1;
+    min-width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }

@@ -1,3 +1,18 @@
+@font-face{                           /* custom fonts */
+    font-family: 'Futura Bk BT';
+    src: url(fonts/futura-bk-bt.ttf);
+}
+
+@font-face{
+    font-family: 'Futura Md BT';
+    src: url(fonts/futura-md-bt.ttf);
+}
+
+@font-face{
+    font-family: 'Futura Lt BT';
+    src: url(fonts/futura-lt-bt.ttf);
+}
+
 body{                           /* background image */
     margin: 0;
     background-image: url('img/background.png');
@@ -166,7 +181,7 @@ body{                           /* background image */
 #skills-column{
     display: flex;
     font-size: 18px;
-    font-family: Futura Lt Bt;
+    font-family: Futura Lt BT;
 }
 
 #first-column{

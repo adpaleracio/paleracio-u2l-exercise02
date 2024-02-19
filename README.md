@@ -3,7 +3,7 @@ Degree Program: BS Computer Science\
 Live Website Link: https://adpaleracio.github.io/paleracio-u2l-exercise02.github.io/
 
 Steps on how to create GitHub page:
-1. Create a repository with the format <filename>.github.io
+1. Create a repository with the format "filename".github.io
 2. On Settings, go to Pages on the sidebar. Under Build and Deployment and under Branch, select the branch and folder, then save.
 3. For html files, push your html file with the name "index.html" onto the repository.
 4. To see the site link, go to Settings then Pages again. The link should be available there, though it may take a while.
